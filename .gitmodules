@@ -22,7 +22,3 @@
 	path = CommonServicesDroid
 	url = git@github.com:tyolab/CommonServicesDroid.git
         branch = master
-[submodule "CommonJsonForm"]
-	path = CommonJsonForm
-	url = git@github.com:tyolab/CommonJsonForm.git
-        branch = master
