@@ -1,1 +1,11 @@
+// App Libraries
+include ':CommonUtils', ':CommonAndroid', ':CommonUiLib', ':CommonAppLib', ':WooCommerceOnDroid'
+
+// Service Library
+include ':CommonServices'
+
+// Droid Services like geolocation
+include ':CommonServicesDroid'
+
+// App
 include ':app'
