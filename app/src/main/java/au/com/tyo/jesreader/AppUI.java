@@ -1,8 +1,8 @@
-package au.com.tyo.inventory;
+package au.com.tyo.jesreader;
 
 import au.com.tyo.app.ui.UIBase;
-import au.com.tyo.inventory.ui.UI;
-import au.com.tyo.inventory.ui.activity.ActivityLogin;
+import au.com.tyo.jesreader.ui.UI;
+import au.com.tyo.jesreader.ui.activity.ActivityLogin;
 
 /**
  * Created by Eric Tang (eric.tang@tyo.com.au) on 27/11/17.

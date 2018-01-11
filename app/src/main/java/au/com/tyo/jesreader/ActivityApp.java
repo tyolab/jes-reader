@@ -1,6 +1,6 @@
-package au.com.tyo.inventory;
+package au.com.tyo.jesreader;
 
-import au.com.tyo.inventory.ui.activity.ActivityMain;
+import au.com.tyo.jesreader.ui.activity.ActivityMain;
 
 /**
  * Created by Eric Tang (eric.tang@tyo.com.au) on 27/11/17.

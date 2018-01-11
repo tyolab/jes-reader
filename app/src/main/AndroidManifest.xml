@@ -45,25 +45,6 @@
             android:screenOrientation="portrait"
             ></activity>
 
-        <activity
-            android:name=".ui.activity.ActivityLogin"
-            android:label="@string/login"
-            android:parentActivityName=".ActivityApp"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustPan"
-            >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ActivityApp" />
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="@string/app_scheme"
-                    android:host="@string/app_host"
-                    android:path="@string/app_path_login" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

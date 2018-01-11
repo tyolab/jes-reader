@@ -1,11 +1,11 @@
-package au.com.tyo.inventory;
+package au.com.tyo.jesreader;
 
 import android.content.Context;
 
 import au.com.tyo.app.CommonApp;
 import au.com.tyo.app.PageAgent;
-import au.com.tyo.inventory.ui.UI;
-import au.com.tyo.inventory.ui.page.PageCommon;
+import au.com.tyo.jesreader.ui.UI;
+import au.com.tyo.jesreader.ui.page.PageCommon;
 
 /**
  * Created by Eric Tang (eric.tang@tyo.com.au) on 24/11/17.

@@ -1,5 +1,5 @@
 // App Libraries
-include ':CommonUtils', ':CommonAndroid', ':CommonUiLib', ':CommonAppLib', ':WooCommerceOnDroid'
+include ':CommonUtils', ':CommonAndroid', ':CommonUiLib', ':CommonAppLib'
 
 // Service Library
 include ':CommonServices'

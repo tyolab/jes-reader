@@ -1,4 +1,4 @@
-package au.com.tyo.inventory.ui.page;
+package au.com.tyo.jesreader.ui.page;
 
 import android.app.Activity;
 
@@ -12,7 +12,7 @@ import au.com.tyo.inventory.R;
 
 public class PageCommon extends Page {
 
-    protected au.com.tyo.inventory.Controller controller;
+    protected au.com.tyo.jesreader.Controller controller;
 
     /**
      * @param controller
@@ -21,7 +21,7 @@ public class PageCommon extends Page {
     public PageCommon(Controller controller, Activity activity) {
         super(controller, activity);
 
-        this.controller = (au.com.tyo.inventory.Controller) controller;
+        this.controller = (au.com.tyo.jesreader.Controller) controller;
 
         toolbarColor = activity.getResources().getColor(R.color.toolbarColor);
         titleTextColor = activity.getResources().getColor(R.color.white);

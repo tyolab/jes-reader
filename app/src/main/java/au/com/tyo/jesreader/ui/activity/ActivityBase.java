@@ -1,4 +1,4 @@
-package au.com.tyo.inventory.ui.activity;
+package au.com.tyo.jesreader.ui.activity;
 
 import au.com.tyo.app.CommonActivity;
 

@@ -1,4 +1,4 @@
-package au.com.tyo.inventory.ui;
+package au.com.tyo.jesreader.ui;
 
 /**
  * Created by Eric Tang (eric.tang@tyo.com.au) on 24/11/17.

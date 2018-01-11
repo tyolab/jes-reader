@@ -1,4 +1,4 @@
-package au.com.tyo.inventory.ui.page;
+package au.com.tyo.jesreader.ui.page;
 
 import android.app.Activity;
 
