@@ -46,7 +46,7 @@ android {
             applicationVariants.all { variant ->
                 variant.outputs.all { output ->
                     project.ext { appName = 'jes-reader' }
-                    def newName = appName + "release-" + versionFullName + ".apk"
+                    def newName = appName + "-release-" + versionFullName + ".apk"
                     outputFileName = newName
                 }
             }

@@ -3,8 +3,8 @@ package au.com.tyo.jesreader.ui.page;
 import android.app.Activity;
 
 import au.com.tyo.app.Controller;
-import au.com.tyo.app.ui.Page;
-import au.com.tyo.inventory.R;
+import au.com.tyo.app.ui.page.Page;
+import au.com.tyo.jesreader.R;
 
 /**
  * Created by Eric Tang (eric.tang@tyo.com.au) on 27/11/17.

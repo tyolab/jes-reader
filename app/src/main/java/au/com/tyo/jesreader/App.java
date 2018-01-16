@@ -23,6 +23,7 @@ public class App extends CommonApp<UI, Controller> implements Controller {
 
     @Override
     public boolean hasUserLoggedIn() {
-        return false;
+        // TODO if need to record user info
+        return true;
     }
 }

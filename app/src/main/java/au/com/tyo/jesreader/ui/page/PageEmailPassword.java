@@ -11,7 +11,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 
 import au.com.tyo.app.Controller;
-import au.com.tyo.inventory.R;
+import au.com.tyo.jesreader.R;
 
 /**
  * Created by Eric Tang (eric.tang@tyo.com.au) on 11/9/17.

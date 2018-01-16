@@ -1,8 +1,11 @@
 package au.com.tyo.jesreader.ui.page;
 
 import android.app.Activity;
+import android.view.Menu;
+import android.view.MenuInflater;
 
 import au.com.tyo.app.Controller;
+import au.com.tyo.jesreader.R;
 
 /**
  * Created by Eric Tang (eric.tang@tyo.com.au) on 27/11/17.
@@ -27,5 +30,11 @@ public class PageMain extends PageCommon {
 
             finish();
         }
+    }
+
+    @Override
+    protected void createMenu(MenuInflater menuInflater, Menu menu) {
+        menuInflater.inflate(R.menu.product, menu);
+        super.createMenu(menuInflater, menu);
     }
 }
