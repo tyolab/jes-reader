@@ -1,5 +1,5 @@
-# TYO WooCommerce
+# Jes Reader
 
-An Android app for inventory management for projects using WordPress with WooCommerce.
+A RSS / News Reader for Android.
 
-Pull request try by RB
+Initial support includes only Slashdot.

@@ -20,19 +20,19 @@ def versionFullName = "${versionMajor}.${versionMinor}.${versionPatch}${versionR
 def buildName = "build${buildTime()}"
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
-
+    compileSdkVersion Integer.valueOf(project.TARGET_SDK_VERSION)
+    // buildToolsVersion project.TOOLS_VERSION
     defaultConfig {
-        applicationId "au.com.tyo.jesreader"
-        minSdkVersion 15
-        targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        applicationId project.APP_ID
+        minSdkVersion Integer.valueOf(project.MINIMUM_SDK_VERSION)
+        targetSdkVersion project.TARGET_SDK_VERSION
+        versionName "${versionFullName}"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
+        versionCode Integer.valueOf("${buildNumber}")
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
